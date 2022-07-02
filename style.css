@@ -1,2 +1,114 @@
-img{max-width: 10rem;
-    max-height: 10rem;}
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Indie+Flower&family=Roboto+Mono:wght@200&display=swap");
+html {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(23, 100, 163);
+  text-decoration: none;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: aliceblue;
+  padding-bottom: 3px;
+}
+.companylogo {
+  font-size: 2.5em;
+  font-family: "Indie Flower", cursive;
+  margin-right: 21rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.navbarelements {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin-left: 4rem;
+
+  margin-top: 9px;
+  color: whitesmoke;
+}
+.navbarelements:hover {
+  color: #ff007b;
+}
+h1 {
+  font-size: 2.5em;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  background-color: aliceblue;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.brandimage {
+  max-width: 100%;
+}
+#products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.categoryimage {
+  max-width: 100%;
+  max-height: fit-content;
+  margin: 0 auto;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.offercategory {
+}
+.offercategory p {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  background-color: aliceblue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.socialmediasection {
+  background-color: #ffe9e3;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.smicon {
+  font-size: 28px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-left: 5px;
+}
+
+footer {
+  color: #d43d13;
+  text-align: right;
+  font-size: 1.3rem;
+  padding-top: 19px;
+}
