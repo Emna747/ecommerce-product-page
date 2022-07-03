@@ -9,6 +9,10 @@
     />
     <title>About Us</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/07cecfdf00.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div>
@@ -20,5 +24,59 @@
         <a href="contact.html" class="navbarelements">Contact Us</a>
       </nav>
     </div>
+
+    <div>
+      
+        <div class="contactform">
+         
+      
+          <form method="post" class="theform" action="contact-form-process.php">
+            <h3 >Contact us</h3>
+              <div >
+                  <label for="Name">Your Name</label>
+                  <div>
+                      <input type="text" id="Name" name="Name" class="placehoder" required>
+                  </div>
+              </div>
+      
+              <div >
+                  <label for="Email" >Your E-mail address</label>
+                  <div>
+                      <input type="email" id="Email" name="Email" class="placehoder" required>
+                  </div>
+              </div>
+      
+              <div >
+                  <label for="Message">Your Message</label>
+                  <div >
+                      <textarea id="Message" name="Message"  rows="3" maxlength="3000" required></textarea>
+                  </div>
+              </div>
+      
+              <div>
+                  <button type="submit" id="submitbtn">Send Message</button>
+              </div>
+      </form>
+      <img src="photo5.jpg" alt="young girl playing" class="contactformimage" />
+    </div>
+
+    <div class="socialmediasection">
+      <h3>Follow and Subscribe To Our Social Media Accounts here</h3>
+      <div class="smicon">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fab fa-facebook" aria-hidden="true"></i
+        ></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><i class="fab fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.pinterest.com/" target="_blank"
+          ><i class="fab fa-pinterest-p" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fab fa-instagram" aria-hidden="true"></i
+        ></a>
+      </div>
+    </div>
   </body>
+  <footer>Made with <i class="fa-solid fa-heart"></i> by Emna Khalfaoui</footer>
 </html>

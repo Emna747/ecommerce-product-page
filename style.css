@@ -29,7 +29,7 @@ nav {
   padding-bottom: 3px;
 }
 .companylogo {
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: "Indie Flower", cursive;
   margin-right: 21rem;
   margin-bottom: 0px;
@@ -39,7 +39,7 @@ nav {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin-left: 4rem;
 
   margin-top: 9px;
@@ -107,8 +107,66 @@ p {
 }
 
 footer {
-  color: #d43d13;
+  color: rgb(23, 100, 163);
   text-align: right;
   font-size: 1.3rem;
   padding-top: 19px;
+}
+
+.frontimage {
+  min-width: 50%;
+}
+.aboutussection {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutussection p {
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  margin: 0 auto;
+  padding-top: 16.5rem;
+}
+
+.contactformimage {
+  width: 50%;
+}
+.theform {
+  margin: 0 auto;
+  padding-top: 4rem;
+  font-size: 2rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+.placehoder {
+  width: 80%;
+  height: 2em;
+  background-color: #ffb6b9;
+  margin-bottom: 2rem;
+}
+.contactform {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+}
+
+#submitbtn {
+  width: 80%;
+  height: 2em;
+  margin-top: 1.5rem;
+  background-color: #ffb6b9;
+  border: none;
+  font-size: 1.4rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+#submitbtn:hover {
+  background-color: #9f1e49;
+}
+#Message {
+  width: 80%;
+  height: 20vh;
 }
