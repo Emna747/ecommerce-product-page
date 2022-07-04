@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Indie+Flower&family=Roboto+Mono:wght@200&display=swap");
+html {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+}
+
+.clothessection {
+  border: red 3px solid;
+}
+.clothingitem {
+  border: greenyellow 2px solid;
+}
+.productimage {
+  border: aqua 2px solid;
+  width: 40%;
+  margin: 0 auto;
+}
+.clothingitem p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+.furnituresection {
+  border: red 3px solid;
+}
+.furnitureitem {
+  border: greenyellow 2px solid;
+}
+.furnitureitem p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+.learningsection {
+  border: red 3px solid;
+}
+.readingitem {
+  border: greenyellow 2px solid;
+}
+.readingitem p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+.toysesection {
+  border: red 3px solid;
+}
+.toyitem {
+  border: greenyellow 2px solid;
+}
+.toyitem p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
