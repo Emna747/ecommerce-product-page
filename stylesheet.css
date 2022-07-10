@@ -87,35 +87,50 @@ nav {
 
 .furnituresection {
   border: red 3px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .furnitureitem {
   border: greenyellow 2px solid;
+  margin: 0 auto;
+  max-width: 90%;
 }
 .furnitureitem p {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .learningsection {
   border: red 3px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .readingitem {
   border: greenyellow 2px solid;
+  margin: 0 auto;
+  max-width: 90%;
 }
 .readingitem p {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .toysesection {
   border: red 3px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .toyitem {
   border: greenyellow 2px solid;
+  margin: 0 auto;
+  max-width: 90%;
 }
 .toyitem p {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .socialmediasection {
