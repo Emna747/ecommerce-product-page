@@ -9,7 +9,6 @@ html {
 
 body {
   position: relative;
-  background-color: aliceblue;
 }
 a:link {
   color: black;
@@ -61,17 +60,24 @@ nav {
 .clothessection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 2rem;
 }
 .clothingitem {
-  margin: 0 auto;
-  max-width: 90%;
+  border: black 2px double;
+  margin-bottom: 6px;
+  width: 18em;
+  background-color: aliceblue;
+}
+.clothingitem:hover {
+  border: black 2px solid;
+  margin-bottom: 6px;
+  width: 20em;
+  background-color: aliceblue;
 }
 .clothingitem p {
-  border: black 2px solid;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
-  margin-top: 0px;
-  padding-left: 1.3rem;
+  text-align: center;
 }
 .introsection {
   display: flex;
@@ -91,6 +97,10 @@ nav {
 }
 button {
   border: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
   background-color: aliceblue;
 }
 .furnituresection {
@@ -145,9 +155,9 @@ button {
   background-color: #ffe9e3;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .smicon {
   font-size: 28px;
@@ -158,8 +168,9 @@ button {
 }
 
 footer {
-  color: rgb(23, 100, 163);
-  text-align: right;
+  color: black;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
   font-size: 1.3rem;
-  padding-top: 19px;
+  margin-top: 2rem;
 }
