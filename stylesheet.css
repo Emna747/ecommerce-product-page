@@ -19,59 +19,49 @@ a:hover {
   text-decoration: none;
 }
 nav {
-  position: sticky;
-  top: 0px;
-  z-index: 10;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   flex-wrap: nowrap;
-  background-color: aliceblue;
-  padding-bottom: 3px;
+  margin: 1rem 2rem;
 }
-.companylogo {
-  font-size: 2em;
-  font-family: "Indie Flower", cursive;
-  margin-right: 21rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
+
 .navbarelements {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.2rem;
-  margin-left: 4rem;
-  margin-top: 9px;
-  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-left: 3rem;
 }
 .navbarelements:hover {
   color: #ff007b;
 }
 
 .productimage {
-  width: 18em;
-  height: 18em;
+  width: 20em;
+  height: 20em;
   margin-bottom: 0px;
 }
 .productimage:hover {
-  width: 20em;
-  height: 20em;
+  width: 22em;
+  height: 22em;
 }
 .clothessection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-bottom: 2rem;
+  justify-items: center;
+  gap: 0px;
 }
 .clothingitem {
   border: black 2px double;
   margin-bottom: 6px;
-  width: 18em;
+  width: 20em;
   background-color: aliceblue;
 }
 .clothingitem:hover {
   border: black 2px solid;
   margin-bottom: 6px;
-  width: 20em;
+  width: 22em;
   background-color: aliceblue;
 }
 .clothingitem p {
@@ -104,60 +94,81 @@ button {
   background-color: aliceblue;
 }
 .furnituresection {
-  border: red 3px solid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 .furnitureitem {
-  border: greenyellow 2px solid;
-  margin: 0 auto;
-  max-width: 90%;
+  border: black 2px double;
+  margin-bottom: 6px;
+  width: 20em;
+  background-color: aliceblue;
+}
+.furnitureitem:hover {
+  border: black 2px solid;
+  margin-bottom: 6px;
+  width: 22em;
+  background-color: aliceblue;
 }
 .furnitureitem p {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .learningsection {
-  border: red 3px solid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 .readingitem {
-  border: greenyellow 2px solid;
-  margin: 0 auto;
-  max-width: 90%;
+  border: black 2px double;
+  margin-bottom: 6px;
+  width: 20em;
+  background-color: aliceblue;
+}
+.readingitem:hover {
+  border: black 2px solid;
+  margin-bottom: 6px;
+  width: 22em;
+  background-color: aliceblue;
 }
 .readingitem p {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .toysesection {
-  border: red 3px solid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 .toyitem {
-  border: greenyellow 2px solid;
-  margin: 0 auto;
-  max-width: 90%;
+  border: black 2px double;
+  margin-bottom: 6px;
+  width: 20em;
+  background-color: aliceblue;
+}
+.toyitem:hover {
+  border: black 2px solid;
+  margin-bottom: 6px;
+  width: 22em;
+  background-color: aliceblue;
 }
 .toyitem p {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .socialmediasection {
   background-color: #ffe9e3;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .smicon {
   font-size: 28px;
