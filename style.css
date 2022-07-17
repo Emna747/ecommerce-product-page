@@ -122,44 +122,220 @@ footer {
 }
 
 .contactformimage {
-  width: 50%;
+  width: 40%;
+  height: 474px;
+  margin: 0 auto;
 }
 .theform {
   margin: 0 auto;
-  padding-top: 4rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
+  padding-right: 7em;
 }
 .placehoder {
-  width: 80%;
-  height: 2em;
-  background-color: #ffb6b9;
+  width: 100%;
+  height: 1.7em;
+  background-color: aliceblue;
   margin-bottom: 2rem;
+  border: none;
 }
 .contactform {
-  position: relative;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row-reverse;
-  margin: 0 auto;
+
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 #submitbtn {
-  width: 80%;
+  width: 100%;
   height: 2em;
   margin-top: 1.5rem;
-  background-color: #ffb6b9;
+  background-color: aliceblue;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
 }
 
 #submitbtn:hover {
-  background-color: #9f1e49;
+  background-color: #df5f8a;
 }
 #Message {
   width: 80%;
   height: 20vh;
+}
+
+@media (max-width: 50em) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .navbarelements {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 0.75rem;
+  }
+  .brandimage {
+    width: 100%;
+    height: 300px;
+  }
+  h1 {
+    font-size: 1.5em;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #products {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 120em;
+  }
+  footer {
+    color: black;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  .offercategory {
+    margin: 7px 9px;
+    border: black 2px solid;
+  }
+  .categoryimage {
+    width: 100%;
+  }
+  .frontimage {
+    width: 100%;
+    height: 250px;
+  }
+  .aboutussection {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .aboutussection p {
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .contactformimage {
+    display: none;
+  }
+  .theform {
+    font-size: 1.2rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+  }
+  .placehoder {
+    width: 100%;
+    height: 1.5em;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+    border: none;
+  }
+  .contactform {
+    border-top: 4px purple double;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+}
+
+@media only screen and (min-device-width: 50em) and (max-device-width: 64em) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .navbarelements {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 0.75rem;
+  }
+  .brandimage {
+    width: 100%;
+    height: 300px;
+  }
+  h1 {
+    font-size: 1.5em;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60em;
+  }
+  footer {
+    color: black;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  .offercategory {
+    margin: 7px 9px;
+    border: black 2px solid;
+  }
+  .categoryimage {
+    width: 100%;
+  }
+  .frontimage {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .aboutussection {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .aboutussection p {
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .contactformimage {
+    width: 45%;
+    margin-top: 4rem;
+  }
+  .theform {
+    margin: 0 auto;
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+  }
+  .placehoder {
+    width: 100%;
+    height: 1.4em;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+  }
+  .contactform {
+    border-top: 4px purple double;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
 }
