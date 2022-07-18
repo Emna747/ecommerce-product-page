@@ -143,6 +143,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  margin-top: 5rem;
 }
 .toyitem {
   border: black 2px double;
@@ -184,4 +185,157 @@ footer {
   text-align: center;
   font-size: 1.3rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 50em) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .navbarelements {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 0.75rem;
+  }
+  .introsection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+  }
+  .frontpicture {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 290px;
+  }
+  .clothessection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .introsection p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .socialmediasection {
+    background-color: #ffe9e3;
+    text-align: center;
+    font-size: 0.74rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .toysesection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 2rem;
+  }
+  .toyitem {
+    border: black 2px double;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+  }
+
+  .toyitem p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    text-align: center;
+  }
+  .furnituresection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .furnitureitem {
+    border: black 2px solid;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+  }
+  .furnitureitem p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    text-align: center;
+  }
+  .learningsection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .readingitem {
+    border: black 2px double;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+  }
+}
+@media only screen and (min-device-width: 50em) and (max-device-width: 64em) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .navbarelements {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left: 1em;
+  }
+  .introsection {
+    display: flex;
+    flex-direction: column;
+  }
+  .frontpicture {
+    width: 85%;
+    height: 350px;
+  }
+  .clothessection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .introsection p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 85%;
+  }
+  .toysesection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 2rem;
+  }
+  .toyitem {
+    border: black 2px double;
+    margin-bottom: 1em;
+    background-color: aliceblue;
+  }
+
+  .furnituresection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .furnitureitem {
+    border: black 2px solid;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+  }
+
+  .learningsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .readingitem {
+    border: black 2px double;
+    margin-bottom: 15px;
+    background-color: aliceblue;
+  }
 }
