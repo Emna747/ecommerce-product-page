@@ -167,7 +167,23 @@ footer {
   width: 80%;
   height: 20vh;
 }
+.shooping-cart {
+  border: yellow 7px solid;
+  display: flex;
+  flex-direction: column;
+}
+.Cart-Container {
+  border: #ff007b 3px solid;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.Cart-Items {
+  border: blue 3px solid;
+}
 
+.checkout {
+  border: red 3px solid;
+}
 @media (max-width: 50em) {
   nav {
     display: flex;
