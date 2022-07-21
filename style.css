@@ -174,8 +174,7 @@ footer {
 }
 .Cart-Container {
   border: #ff007b 3px solid;
-  display: flex;
-  flex-flow: row nowrap;
+
 }
 .Cart-Items {
   border: blue 3px solid;
