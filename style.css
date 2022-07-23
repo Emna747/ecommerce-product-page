@@ -202,12 +202,20 @@ footer {
 .amount {
   align-self: center;
 }
+.Subtotal {
+  align-self: center;
+}
+.items {
+  align-self: center;
+}
+.total-amount {
+  align-self: center;
+}
 .remove-button {
-  align-self: end;
+  align-self: center;
 }
 .Checkout-button {
-  width: 70%;
-  font-weight: 1em;
+  align-self: center;
 }
 /*
 .Cart-Items {
