@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/07cecfdf00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <h2>Kindly select one of the below paying options</h2>
+      <div class="payingmethod">
+        <input type="radio" id="mastercard" name="cardbank" value="MC" />
+        <label for="mastercard"
+          ><i class="fa-brands fa-cc-mastercard"></i></label
+        ><br />
+        <input type="radio" id="visa" name="cardbank" value="VISA" />
+        <label for="visa"><i class="fa-brands fa-cc-visa"></i></label><br />
+
+        <input type="radio" id="AMERICANEX" name="cardbank" value="AMEX" />
+        <label for="AMERICANEX"><i class="fa-brands fa-cc-amex"></i></label
+        ><br />
+
+        <input type="radio" id="paypal" name="payingmethod" value="paypal" />
+        <label for="paypal"><i class="fa-brands fa-cc-paypal"></i></label><br />
+      </div>
+      <button>Process Payment</button>
+    </div>
+  </body>
+</html>
