@@ -217,6 +217,19 @@ footer {
 .Checkout-button {
   align-self: center;
 }
+.payement {
+  margin: 0 auto;
+  background-color: #f1e2e7;
+  text-align: center;
+  width: 40%;
+}
+.payingmethod {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
 /*
 .Cart-Items {
   border-top: 2px rgb(160, 10, 72) solid;
