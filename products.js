@@ -1,4 +1,4 @@
-var productItem = [
+let productItems = [
   {
     productName: "Wooden Dinosaurs Set",
     price: "36.99",
