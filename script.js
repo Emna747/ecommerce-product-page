@@ -69,3 +69,9 @@ const shopItems = [
   { id: "1023", productName: "Alphabet Book", price: 13.89 },
   { id: "1024", productName: "Having A Friend", price: 8.99 },
 ];
+
+//function renderItem(){shopItems.forEach((item) => {})}
+
+//cart array let cart = [];
+
+function addToCart(id) {}
