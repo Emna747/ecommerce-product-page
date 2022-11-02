@@ -70,8 +70,45 @@ const shopItems = [
   { id: "1024", productName: "Having A Friend", price: 8.99 },
 ];
 
-//function renderItem(){shopItems.forEach((item) => {})}
+let shoppingCard = [];
+let shopitem;
+function addToCart() {
+  let selectedItem;
 
-//cart array let cart = [];
+  console.log("what have we got here");
+}
 
-function addToCart(id) {}
+function clearCart() {
+  document.getElementsByClassName("Action").innerHTML = " ";
+  console.log("supposed to delete the items from the card");
+}
+
+function removeOneItem() {
+  shopitem--;
+  document.getElementsByClassName("fa-solid fa-minus").innerHTML = shopitem;
+  console.log("supposed to reduce the number by one");
+}
+function addOneItem() {
+  shopitem++;
+  document.getElementsByClassName("fa-solid fa-plus").innerHTML = shopitem;
+  console.log("supposed to increase the number by one");
+}
+function Removeproducts() {
+  document.getElementsByClassName("remove-button").innerHTML = " ";
+  console.log("supposed to delete the item");
+}
+/*
+update the conetnt of the card by grabing the element document.querySelector(h1).innerHTML = products
+and product is products++ to increment by 1
+
+to change the color of the cart icon one must use
+ function colormanip () {document.querySelector('#shopcart').onclick = function() {
+  document.querySelector('#shopcart').style.color ="red";}}
+  
+  about local storage 
+  
+  localeStorage.getItem(key)
+   localeStorage.setItem(key,value)
+  return document.getElementsByClassName("purchase");
+document.getElementById("myBtn").addEventListener("click", displayDate);}
+*/

@@ -19,9 +19,9 @@
       <nav>
         <a href="index.html" class="navbarelements">Home</a>
         <a href="aboutus.html" class="navbarelements">About Us</a>
-        <a href="#products" class="navbarelements">Our Products</a>
+        
         <a href="contact.html" class="navbarelements">Contact Us</a>
-        <a href="shoppingcart.html" class="navbarelements">
+        <a href="shoppingcart.html" class="navbarelements" id="shopcart">
           <i class="fa-solid fa-cart-shopping"></i
         ></a>
       </nav>
@@ -30,7 +30,7 @@
           <h2 class="Heading">
             Shopping Cart <i class="fa-solid fa-cart-shopping"></i>
           </h2>
-          <h4 class="Action">Remove all</h4>
+          <button class="Action" onclick="clearCart()">Remove all</button>
         </div>
 
         <div class="Cart-Items">
@@ -38,14 +38,16 @@
             <h3 class="title">Red Dress</h3>
           </div>
           <div class="counter">
-            <div class="btn"><i class="fa-solid fa-minus"></i></div>
-            <div class="count">1</div>
-            <div class="btn"><i class="fa-solid fa-plus"></i></div>
+            <div class="btn"><i class="fa-solid fa-minus" onclick="removeOneItem()"></i></div>
+            <div id =${id} class="count">1</div>
+            <div class="btn"><i class="fa-solid fa-plus" onclick="addOneItem()"></i></div>
           </div>
+
+       
 
           <div class="amount">$2.99</div>
 
-          <div class="remove-button"><button>Remove</button></div>
+          <div class="remove-button" onclick=" Removeproducts()"><button>Remove</button></div>
 
           <div class="Subtotal">Sub-Total</div>
           <div class="items">2 items</div>
@@ -54,5 +56,5 @@
           <button class="Checkout-button">Checkout</button> </div>
        
           <script src="script.js"></script>
-  </body>
+  </body> 
 </html>

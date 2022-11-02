@@ -339,3 +339,6 @@ footer {
     background-color: aliceblue;
   }
 }
+button.purchase:hover {
+  background-color: #ff007b;
+}
